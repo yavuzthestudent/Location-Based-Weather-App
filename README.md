@@ -42,8 +42,3 @@ Features country & city selection with **type-ahead search** and a clean UI.
 - **geonamescache** (province/city data)
 - **requests** (weather API calls)
 ---
-
-## 🙌 Acknowledgments
-- [PyQt5](https://pypi.org/project/PyQt5/)  
-- [pycountry](https://pypi.org/project/pycountry/)  
-- [geonamescache](https://pypi.org/project/geonamescache/)  
