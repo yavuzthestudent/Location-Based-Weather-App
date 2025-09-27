@@ -16,17 +16,17 @@ Features country & city selection with **type-ahead search** and a clean UI.
 - **Instant search (type-ahead)** in both dropdowns
 - Live weather data: temperature, description, emoji/icon
 - Packaged `.exe` available under [Releases](../../releases)
-- Single–file executable, no console window
 
 ---
 
 ## 🖼️ Screenshots
 
-**1) Main Screen**  
 ![Main UI](docs/screenshots/screen1.png)
 
-**2) Country & City Search**  
 ![Search UI](docs/screenshots/screen2.png)
+
+![Search UI](docs/screenshots/screen3.png)
+
 
 ---
 
