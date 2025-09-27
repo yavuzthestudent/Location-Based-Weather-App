@@ -1,6 +1,9 @@
 import sys
 import requests
 import json
+from dotenv import load_dotenv
+import os
+
 
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QLabel, QLineEdit,
@@ -11,7 +14,11 @@ from PyQt5.QtCore import Qt, QStringListModel
 import pycountry
 import geonamescache
 
+
 class WeatherApp(QWidget):
+
+    load_dotenv()
+
     def __init__(self):
         super().__init__()
 
@@ -518,8 +525,8 @@ class WeatherApp(QWidget):
             self.find_location_btn.setEnabled(True)
 
     def get_weather(self):
-        api_key = "663f17162f6c48061ef201d538d03170"
-
+        api_key = os.getenv("WEATHER_API_KEY")
+    
         alpha2 = self.country_combo.currentData()
         city_name = self.city_combo.currentData()
 
