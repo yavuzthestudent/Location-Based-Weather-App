@@ -14,10 +14,10 @@ from PyQt5.QtCore import Qt, QStringListModel
 import pycountry
 import geonamescache
 
+load_dotenv()
 
 class WeatherApp(QWidget):
 
-    load_dotenv()
 
     def __init__(self):
         super().__init__()
