@@ -41,25 +41,6 @@ Features country & city selection with **type-ahead search** and a clean UI.
 - **pycountry** (country list)
 - **geonamescache** (province/city data)
 - **requests** (weather API calls)
-
----
-
-## 🧭 Roadmap
-- [ ] °C / °F unit toggle  
-- [ ] Dark/Light theme  
-- [ ] Offline cache of last results  
-- [ ] Better error handling & retry logic  
-
----
-
-## 🤝 Contributing
-Pull requests are welcome. Feel free to open issues and suggest features.
-
----
-
-## 📜 License
-MIT License – see the [LICENSE](LICENSE) file for details.
-
 ---
 
 ## 🙌 Acknowledgments
